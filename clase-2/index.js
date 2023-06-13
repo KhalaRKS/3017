@@ -51,10 +51,10 @@ let numero = 5;
 // numero %= 2
 // numero = numero % 2
 
-let nombre = "Juan";
-
 // // equivalentes
 // // if (verdadero == true)
+
+let nombre = "Juan";
 
 // if (nombre != null) {
 //   console.log("Hola " + nombre);
@@ -63,6 +63,7 @@ let nombre = "Juan";
 // }
 
 let edad = 20;
+
 // if (edad > 18) {
 //   console.log("Hola " + nombre, "usted es mayor de 18 años");
 // } else if (edad == 18) {
@@ -71,20 +72,37 @@ let edad = 20;
 //   console.log("Hola " + nombre, "usted es menor de 18 años");
 // }
 
-switch (edad) {
-  case 19:
-    console.log("Hola " + nombre, "usted tiene 19 años");
-    break;
-  case 20:
-    console.log("Hola " + nombre, "usted tiene 20 años");
-    break;
-  case 21:
-    console.log("Hola " + nombre, "usted tiene 21 años");
-    break;
-
-  default:
-    console.log("Hola " + nombre, +" " + edad + "años");
-    break;
-}
+// switch (edad) {
+//   case 19:
+//     console.log("Hola " + nombre, "usted tiene 19 años");
+//     break;
+//   case 20:
+//     console.log("Hola " + nombre, "usted tiene 20 años");
+//     break;
+//   case 21:
+//     console.log("Hola " + nombre, "usted tiene 21 años");
+//     break;
+//   case 22:
+//     console.log("Hola " + nombre, "usted tiene 22 años");
+//     break;
+//   default:
+//     console.log("Hola " + nombre, "usted tiene otra edad");
+//     break;
+// }
 
 // Seguimos en la próxima clase los temas pendientes y repasamos lo ultimo visto
+
+// let esMayor = edadUsuario > 18 ? true : false;
+
+// let isMayor;
+// if (edad > 18) {
+//   isMayor = true;
+// } else {
+//   isMayor = false;
+// }
+
+// edad > 18
+//   ? console.log("Usted es mayor")
+//   : edad < 18
+//   ? console.log("Usted es menor")
+//   : console.log("Usted tiene 18 años");
