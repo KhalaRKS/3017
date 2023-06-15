@@ -48,21 +48,34 @@
 // }while (isMayor)
 
 
-// armate un array de dias
+// // armate un array de dias
 let dias = ["Lunes", "Miercoles","Viernes","Martes", "Jueves", "Sabado", "Domingo"];
-let nombre= "Juan";
+// let nombre= "Juan";
 
-dias[0] // "Lunes"
-dias[1] // "Miercoles"
-dias[5] // "Sabado"
+// dias[0] // "Lunes"
+// dias[1] // "Miercoles"
+// dias[5] // "Sabado"
 
-console.log(dias.length);
-console.log(Array.isArray(dias));
- // true
-Array.isArray(nombre) // false
+// console.log(dias.length);
+// console.log(Array.isArray(dias));
+//  // true
+// Array.isArray(nombre) // false
 
-for (let index = 0; index < dias.length; index++) {
-  const element = dias[index];
-  console.log(element);
+// for (let index = 0; index < dias.length; index++) {
+//   const element = dias[index];
+//   console.log(element);
+// }
+// // Seguir clase que viene desde este punto
+
+
+// for of
+// ->
+for (const dia of dias) {
+  console.log(dia);
 }
-// Seguir clase que viene desde este punto
+
+// sinonimo o equivalencia
+// for (let index = 0; index < dias.length; index++) {
+//   const dia = dias[index];
+//   console.log(dia);
+// }
