@@ -105,3 +105,4 @@ const pizzasNuevas = [
 const [pizza1, pizza2] = pizzas
 
 console.log(pizzasNuevas);
+
