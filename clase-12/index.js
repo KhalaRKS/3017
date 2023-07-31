@@ -100,9 +100,10 @@ cardContainer.innerHTML = elementos
   //   sessionStorage.Apellido = "Rodriguez"
   // }
   
-  
-  
-  
+  // TypeScript
+  // Dart
+  // Java != javaScript
+  // Swift y objective-c
   
   let vaca =   {
     name: "vaca",
