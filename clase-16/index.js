@@ -150,3 +150,10 @@ numeros.sort((a,b) => a - b)
 
 numeros.unshift(13)
 console.log(numeros);
+
+
+obj.nombre = "pepe"
+obj["lastName"] = "rodriguez"
+obj = {
+    n
+}
